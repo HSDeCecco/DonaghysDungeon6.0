@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0177413A1FE966A90071B36D /* Luminari-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 017741391FE966A50071B36D /* Luminari-Regular.ttf */; };
 		83170F241FE9621500D5033D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83170F231FE9621500D5033D /* AppDelegate.swift */; };
 		83170F261FE9621500D5033D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83170F251FE9621500D5033D /* GameScene.sks */; };
 		83170F281FE9621500D5033D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83170F271FE9621500D5033D /* Actions.sks */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017741391FE966A50071B36D /* Luminari-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Luminari-Regular.ttf"; path = "../../../../Downloads/Luminari-Regular.ttf"; sourceTree = "<group>"; };
 		83170F201FE9621500D5033D /* DonaghysDungeon6.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonaghysDungeon6.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83170F231FE9621500D5033D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83170F251FE9621500D5033D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		83170F221FE9621500D5033D /* DonaghysDungeon6.0 */ = {
 			isa = PBXGroup;
 			children = (
+				017741391FE966A50071B36D /* Luminari-Regular.ttf */,
 				83170F231FE9621500D5033D /* AppDelegate.swift */,
 				83170F251FE9621500D5033D /* GameScene.sks */,
 				83170F271FE9621500D5033D /* Actions.sks */,
@@ -243,6 +246,7 @@
 			files = (
 				83170F2F1FE9621500D5033D /* Main.storyboard in Resources */,
 				83170F261FE9621500D5033D /* GameScene.sks in Resources */,
+				0177413A1FE966A90071B36D /* Luminari-Regular.ttf in Resources */,
 				83170F311FE9621500D5033D /* Assets.xcassets in Resources */,
 				83170F341FE9621500D5033D /* LaunchScreen.storyboard in Resources */,
 				83170F281FE9621500D5033D /* Actions.sks in Resources */,
@@ -474,6 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84LWTY6T5F;
 				INFOPLIST_FILE = DonaghysDungeon6.0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,6 +496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84LWTY6T5F;
 				INFOPLIST_FILE = DonaghysDungeon6.0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,8 +511,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84LWTY6T5F;
+				DEVELOPMENT_TEAM = MSHG4EZ54L;
 				INFOPLIST_FILE = DonaghysDungeon6.0UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,8 +528,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84LWTY6T5F;
+				DEVELOPMENT_TEAM = MSHG4EZ54L;
 				INFOPLIST_FILE = DonaghysDungeon6.0UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
