@@ -505,7 +505,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84LWTY6T5F;
+				DEVELOPMENT_TEAM = MSHG4EZ54L;
 				INFOPLIST_FILE = DonaghysDungeon6.0UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0UITests";
@@ -521,7 +521,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84LWTY6T5F;
+				DEVELOPMENT_TEAM = MSHG4EZ54L;
 				INFOPLIST_FILE = DonaghysDungeon6.0UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0UITests";
