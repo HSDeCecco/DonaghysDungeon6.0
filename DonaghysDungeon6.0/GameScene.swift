@@ -15,18 +15,26 @@ class GameScene: SKScene {
     
     override func sceneDidLoad() {
         firstLabel()
-        
+        secondLabel()
         }
         
         
     
     func firstLabel(){
-        let label = SKLabelNode(fontNamed: "Arial")
-        label.text = "Donaghy's /n Dungeon"
+        let label = SKLabelNode(fontNamed: " ")
+        label.text = "Donaghy's"
         label.fontSize = CGFloat(75)
         label.position = CGPoint(x: frame.width / 2 , y: frame.height / 2)
         label.fontColor = UIColor.yellow
-        label.numberOfLines = 2
+        addChild(label)
+        
+    }
+    func secondLabel(){
+        let label = SKLabelNode(fontNamed: "")
+        label.text = "Dungeon"
+        label.fontSize = CGFloat(75)
+        label.position = CGPoint(x: frame.width / 2 , y: frame.height / 2.2)
+        label.fontColor = UIColor.yellow
         addChild(label)
         
     }
