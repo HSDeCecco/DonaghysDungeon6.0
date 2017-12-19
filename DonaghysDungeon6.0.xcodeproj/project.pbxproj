@@ -474,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84LWTY6T5F;
 				INFOPLIST_FILE = DonaghysDungeon6.0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,6 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84LWTY6T5F;
 				INFOPLIST_FILE = DonaghysDungeon6.0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +509,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MSHG4EZ54L;
 				INFOPLIST_FILE = DonaghysDungeon6.0UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,6 +526,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MSHG4EZ54L;
 				INFOPLIST_FILE = DonaghysDungeon6.0UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
