@@ -21,7 +21,7 @@ class GameScene: SKScene {
         
     
     func firstLabel(){
-        let label = SKLabelNode(fontNamed: " ")
+        let label = SKLabelNode(fontNamed: "Luminari")
         label.text = "Donaghy's"
         label.fontSize = CGFloat(75)
         label.position = CGPoint(x: frame.width / 2 , y: frame.height / 2)
@@ -30,7 +30,7 @@ class GameScene: SKScene {
         
     }
     func secondLabel(){
-        let label = SKLabelNode(fontNamed: "")
+        let label = SKLabelNode(fontNamed: "Luminari")
         label.text = "Dungeon"
         label.fontSize = CGFloat(75)
         label.position = CGPoint(x: frame.width / 2 , y: frame.height / 2.2)
