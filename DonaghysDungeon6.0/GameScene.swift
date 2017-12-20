@@ -11,11 +11,17 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    var label = 0
     
     
     override func sceneDidLoad() {
-       intro()
+            intro()
+
         }
+    
+    
+    
+    
     
     func intro(){
         wait(time: 1.0)
@@ -44,6 +50,32 @@ class GameScene: SKScene {
         addChild(label)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        removeAllChildren()
+        label += 1
+        if label == 1{
+            makeLabel(text: "Deep in the depths", size: 60, x: Double(frame.width / 2), y: Double(frame.height / 1.8))
+            makeLabel(text: "of Haverford High School", size: 60, x: Double(frame.width / 2), y: Double(frame.height / 2.0))
+        }
+        if label == 2{
+            makeLabel(text: "Lurks an unspeakable", size: 60, x: Double(frame.width / 2), y: Double(frame.height / 1.8))
+            makeLabel(text: "evil", size: 60, x: Double(frame.width / 2), y: Double(frame.height / 2.0))
+        }
+        if label == 3{
+            makeLabel(text: "That can only be stopped by", size: 50, x: Double(frame.width / 2), y: Double(frame.height / 1.8))
+            makeLabel(text: "You!", size: 60, x: Double(frame.width / 2), y: Double(frame.height / 2.0))
+        }
+        if label == 4{
+            let gamestartscene = GameStartScene(size: self.size)
+            let reveal = SKTransition.moveIn(with: SKTransitionDirection.down, duration: 1)
+            view?.presentScene(gamestartscene, transition: reveal)
+        }
+        
+        
+        
+        
+    }
     
     
 }
+
