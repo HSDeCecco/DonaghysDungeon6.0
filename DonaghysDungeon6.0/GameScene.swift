@@ -14,31 +14,35 @@ class GameScene: SKScene {
     
     
     override func sceneDidLoad() {
-        firstLabel()
-        secondLabel()
+       intro()
         }
-        
-        
     
-    func firstLabel(){
-        let label = SKLabelNode(fontNamed: "Luminari")
-        label.text = "Donaghy's"
-        label.fontSize = CGFloat(75)
-        label.position = CGPoint(x: frame.width / 2 , y: frame.height / 2)
-        label.fontColor = UIColor.yellow
-        addChild(label)
-        
-    }
-    func secondLabel(){
-        let label = SKLabelNode(fontNamed: "Luminari")
-        label.text = "Dungeon"
-        label.fontSize = CGFloat(75)
-        label.position = CGPoint(x: frame.width / 2 , y: frame.height / 2.2)
-        label.fontColor = UIColor.yellow
-        addChild(label)
-        
+    func intro(){
+        wait(time: 1.0)
+        makeLabel(text: "Donaghy's", size: 75, x: Double(frame.width / 2), y: Double(frame.height / 1.6))
+        wait(time: 1.0)
+        makeLabel(text: "Dungeon", size: 75, x: Double(frame.width / 2), y: Double(frame.height / 1.8))
+        wait(time: 1.0)
+        makeLabel(text: "Tap anywhere to begin", size: 50, x: Double(frame.width / 2), y: Double(frame.height / 2.2))
     }
     
+    
+    
+    func wait(time: Double){
+        var wait = SKAction.wait(forDuration: time)
+        run(wait)
+    }
+        
+    
+    
+    func makeLabel(text: String, size: Int, x: Double, y: Double){
+        let label = SKLabelNode(fontNamed: "Luminari")
+        label.text = text
+        label.fontSize = CGFloat(size)
+        label.position = CGPoint(x: x , y: y)
+        label.fontColor = UIColor.yellow
+        addChild(label)
+    }
     
     
     
