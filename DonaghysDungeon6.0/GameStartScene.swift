@@ -12,9 +12,22 @@ import GameplayKit
 
 
 class GameStartScene: SKScene {
+        var player = SKSpriteNode()
     
-
-
+    
+    
+    
+    
+    override func sceneDidLoad() {
+        //setting border of world
+        let borderBody = SKPhysicsBody(edgeLoopFrom: frame)
+        physicsBody?.friction = 0.0
+        physicsBody = borderBody
+        //getting access
+        player = childNode(withName: "player") as! SKSpriteNode
+        
+    }
+    
 
 
 
