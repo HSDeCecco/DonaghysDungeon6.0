@@ -108,8 +108,10 @@
 				0177413D1FEAB2FF0071B36D /* Luminari-Regular.ttf */,
 				83170F231FE9621500D5033D /* AppDelegate.swift */,
 				83170F251FE9621500D5033D /* GameScene.sks */,
+				1AE4009F1FEC05EA005B43F2 /* GameStartScene.sks */,
 				83170F271FE9621500D5033D /* Actions.sks */,
 				83170F291FE9621500D5033D /* GameScene.swift */,
+				1AE400771FEABA65005B43F2 /* GameStartScene.swift */,
 				83170F2B1FE9621500D5033D /* GameViewController.swift */,
 				83170F2D1FE9621500D5033D /* Main.storyboard */,
 				83170F301FE9621500D5033D /* Assets.xcassets */,
@@ -245,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83170F2F1FE9621500D5033D /* Main.storyboard in Resources */,
+				1AE400A01FEC05EA005B43F2 /* GameStartScene.sks in Resources */,
 				83170F261FE9621500D5033D /* GameScene.sks in Resources */,
 				0177413E1FEAB3040071B36D /* Luminari-Regular.ttf in Resources */,
 				83170F311FE9621500D5033D /* Assets.xcassets in Resources */,
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83170F2A1FE9621500D5033D /* GameScene.swift in Sources */,
+				1AE400781FEABA65005B43F2 /* GameStartScene.swift in Sources */,
 				83170F2C1FE9621500D5033D /* GameViewController.swift in Sources */,
 				83170F241FE9621500D5033D /* AppDelegate.swift in Sources */,
 			);
