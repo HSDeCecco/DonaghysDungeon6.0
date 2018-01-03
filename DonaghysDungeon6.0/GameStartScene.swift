@@ -10,5 +10,7 @@ import UIKit
 import GameplayKit
 
 class GameStartScene: SKScene {
-
+    override func sceneDidLoad() {
+        print("scene")
+    }
 }

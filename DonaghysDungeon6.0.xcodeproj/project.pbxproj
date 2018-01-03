@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0177413E1FEAB3040071B36D /* Luminari-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0177413D1FEAB2FF0071B36D /* Luminari-Regular.ttf */; };
 		1AE400A21FED57EB005B43F2 /* GameStartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE400A11FED57EB005B43F2 /* GameStartScene.swift */; };
 		1AE400A41FED581F005B43F2 /* GameStartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1AE400A31FED581F005B43F2 /* GameStartScene.sks */; };
 		83170F241FE9621500D5033D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83170F231FE9621500D5033D /* AppDelegate.swift */; };
@@ -40,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0177413D1FEAB2FF0071B36D /* Luminari-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Luminari-Regular.ttf"; path = "../../../../Downloads/Luminari-Regular.ttf"; sourceTree = "<group>"; };
+		1A2FF17D1FFD237600466ECE /* Luminari-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Luminari-Regular.ttf"; path = "../../Luminari-Regular.ttf"; sourceTree = "<group>"; };
 		1AE400A11FED57EB005B43F2 /* GameStartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStartScene.swift; sourceTree = "<group>"; };
 		1AE400A31FED581F005B43F2 /* GameStartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameStartScene.sks; sourceTree = "<group>"; };
 		83170F201FE9621500D5033D /* DonaghysDungeon6.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonaghysDungeon6.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,7 +108,7 @@
 		83170F221FE9621500D5033D /* DonaghysDungeon6.0 */ = {
 			isa = PBXGroup;
 			children = (
-				0177413D1FEAB2FF0071B36D /* Luminari-Regular.ttf */,
+				1A2FF17D1FFD237600466ECE /* Luminari-Regular.ttf */,
 				83170F231FE9621500D5033D /* AppDelegate.swift */,
 				83170F271FE9621500D5033D /* Actions.sks */,
 				83170F251FE9621500D5033D /* GameScene.sks */,
@@ -253,7 +252,6 @@
 				83170F2F1FE9621500D5033D /* Main.storyboard in Resources */,
 				1AE400A41FED581F005B43F2 /* GameStartScene.sks in Resources */,
 				83170F261FE9621500D5033D /* GameScene.sks in Resources */,
-				0177413E1FEAB3040071B36D /* Luminari-Regular.ttf in Resources */,
 				83170F311FE9621500D5033D /* Assets.xcassets in Resources */,
 				83170F341FE9621500D5033D /* LaunchScreen.storyboard in Resources */,
 				83170F281FE9621500D5033D /* Actions.sks in Resources */,

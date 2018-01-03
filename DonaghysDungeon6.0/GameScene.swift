@@ -69,6 +69,7 @@ class GameScene: SKScene {
             let gamestartscene = GameStartScene(size: self.size)
             let reveal = SKTransition.moveIn(with: SKTransitionDirection.down, duration: 1)
             view?.presentScene(gamestartscene, transition: reveal)
+            print("reveal")
         }
         
         
