@@ -66,10 +66,15 @@ class GameScene: SKScene {
             makeLabel(text: "You!", size: 60, x: Double(frame.width / 2), y: Double(frame.height / 2.0))
         }
         if label == 4{
-            let gamestartscene = GameStartScene(size: self.size)
-            let reveal = SKTransition.moveIn(with: SKTransitionDirection.down, duration: 1)
-            view?.presentScene(gamestartscene, transition: reveal)
-            print("reveal")
+            
+            let gameScene = GameScene(fileNamed: "GameStartScene")
+            gameScene?.scaleMode = .aspectFill
+            let reveal = SKTransition.doorsOpenVertical(withDuration: 3)
+            view?.presentScene(gameScene!, transition: reveal)
+//            let gamestartscene = GameStartScene(size: self.size)
+//            let reveal = SKTransition.moveIn(with: SKTransitionDirection.down, duration: 1)
+//            view?.presentScene(gamestartscene, transition: reveal)
+//            print("reveal")
         }
         
         
