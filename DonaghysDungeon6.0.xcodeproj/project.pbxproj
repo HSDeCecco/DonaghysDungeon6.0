@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A7AA4AD2017814800DF1D0D /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AA4AC2017814800DF1D0D /* GameOverScene.swift */; };
+		1A7AA4B32017828900DF1D0D /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1A7AA4B22017828900DF1D0D /* GameOverScene.sks */; };
+		1A7AA4B5201788B200DF1D0D /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AA4B4201788B200DF1D0D /* Level2.swift */; };
+		1A7AA4B7201788DF00DF1D0D /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1A7AA4B6201788DF00DF1D0D /* Level2.sks */; };
 		1AE400A21FED57EB005B43F2 /* GameStartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE400A11FED57EB005B43F2 /* GameStartScene.swift */; };
 		1AE400A41FED581F005B43F2 /* GameStartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1AE400A31FED581F005B43F2 /* GameStartScene.sks */; };
 		83170F241FE9621500D5033D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83170F231FE9621500D5033D /* AppDelegate.swift */; };
@@ -39,7 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A2FF17D1FFD237600466ECE /* Luminari-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Luminari-Regular.ttf"; path = "../../Luminari-Regular.ttf"; sourceTree = "<group>"; };
+		1A7AA4AC2017814800DF1D0D /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		1A7AA4B22017828900DF1D0D /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		1A7AA4B4201788B200DF1D0D /* Level2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2.swift; sourceTree = "<group>"; };
+		1A7AA4B6201788DF00DF1D0D /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
 		1AE400A11FED57EB005B43F2 /* GameStartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStartScene.swift; sourceTree = "<group>"; };
 		1AE400A31FED581F005B43F2 /* GameStartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameStartScene.sks; sourceTree = "<group>"; };
 		83170F201FE9621500D5033D /* DonaghysDungeon6.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonaghysDungeon6.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,13 +115,16 @@
 		83170F221FE9621500D5033D /* DonaghysDungeon6.0 */ = {
 			isa = PBXGroup;
 			children = (
-				1A2FF17D1FFD237600466ECE /* Luminari-Regular.ttf */,
 				83170F231FE9621500D5033D /* AppDelegate.swift */,
 				83170F271FE9621500D5033D /* Actions.sks */,
 				83170F251FE9621500D5033D /* GameScene.sks */,
 				1AE400A31FED581F005B43F2 /* GameStartScene.sks */,
+				1A7AA4B6201788DF00DF1D0D /* Level2.sks */,
+				1A7AA4B22017828900DF1D0D /* GameOverScene.sks */,
 				83170F291FE9621500D5033D /* GameScene.swift */,
 				1AE400A11FED57EB005B43F2 /* GameStartScene.swift */,
+				1A7AA4B4201788B200DF1D0D /* Level2.swift */,
+				1A7AA4AC2017814800DF1D0D /* GameOverScene.swift */,
 				83170F2B1FE9621500D5033D /* GameViewController.swift */,
 				83170F2D1FE9621500D5033D /* Main.storyboard */,
 				83170F301FE9621500D5033D /* Assets.xcassets */,
@@ -252,6 +262,8 @@
 				83170F2F1FE9621500D5033D /* Main.storyboard in Resources */,
 				1AE400A41FED581F005B43F2 /* GameStartScene.sks in Resources */,
 				83170F261FE9621500D5033D /* GameScene.sks in Resources */,
+				1A7AA4B7201788DF00DF1D0D /* Level2.sks in Resources */,
+				1A7AA4B32017828900DF1D0D /* GameOverScene.sks in Resources */,
 				83170F311FE9621500D5033D /* Assets.xcassets in Resources */,
 				83170F341FE9621500D5033D /* LaunchScreen.storyboard in Resources */,
 				83170F281FE9621500D5033D /* Actions.sks in Resources */,
@@ -282,6 +294,8 @@
 				83170F2A1FE9621500D5033D /* GameScene.swift in Sources */,
 				1AE400A21FED57EB005B43F2 /* GameStartScene.swift in Sources */,
 				83170F2C1FE9621500D5033D /* GameViewController.swift in Sources */,
+				1A7AA4B5201788B200DF1D0D /* Level2.swift in Sources */,
+				1A7AA4AD2017814800DF1D0D /* GameOverScene.swift in Sources */,
 				83170F241FE9621500D5033D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,9 +465,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MSHG4EZ54L;
 				INFOPLIST_FILE = DonaghysDungeon6.0/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,9 +481,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MSHG4EZ54L;
 				INFOPLIST_FILE = DonaghysDungeon6.0/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-0";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AssistStat.DonaghysDungeon6-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
