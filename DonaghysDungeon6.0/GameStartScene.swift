@@ -80,7 +80,7 @@ class GameStartScene: SKScene, SKPhysicsContactDelegate {
         if doYouHaveSword == true{
             if (contact.bodyA.categoryBitMask == PhysicsCategory.player && contact.bodyB.categoryBitMask == PhysicsCategory.skeleton) || (contact.bodyB.categoryBitMask == PhysicsCategory.player && contact.bodyA.categoryBitMask == PhysicsCategory.skeleton){
                 if contact.bodyA.node == skeleton || contact.bodyB.node == skeleton {
-                    skeleton.zRotation = CGFloat(-90)
+                    skeleton.removeFromParent()
                 }
             }
                 
@@ -150,23 +150,9 @@ class GameStartScene: SKScene, SKPhysicsContactDelegate {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touch = touches.first
         let touchLocation =  touch!.location(in: self)
-        if let body = physicsWorld.body(at: touchLocation) {
-            if body.node?.name == "player" {
-                fingerOnPlayer = true
+        player.position = CGPoint(x: touchLocation.x , y: touchLocation.y )
             }
-        }
-    }
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if fingerOnPlayer == true{
-            let touch = touches.first
-            let touchLocation =  touch!.location(in: self)
-            player.position = CGPoint(x: touchLocation.x , y: touchLocation.y )
-        }
-    }
-
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        fingerOnPlayer = false
-    }
+    
     
     
     
