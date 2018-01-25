@@ -146,7 +146,6 @@ class GameStartScene: SKScene, SKPhysicsContactDelegate {
     
     
     //moving
-    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touch = touches.first
         let touchLocation =  touch!.location(in: self)

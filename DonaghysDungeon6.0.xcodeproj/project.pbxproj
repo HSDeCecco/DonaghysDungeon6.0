@@ -23,6 +23,10 @@
 		83170F341FE9621500D5033D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83170F321FE9621500D5033D /* LaunchScreen.storyboard */; };
 		83170F3F1FE9621500D5033D /* DonaghysDungeon6_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83170F3E1FE9621500D5033D /* DonaghysDungeon6_0Tests.swift */; };
 		83170F4A1FE9621500D5033D /* DonaghysDungeon6_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83170F491FE9621500D5033D /* DonaghysDungeon6_0UITests.swift */; };
+		FD81E22820199486009EF14D /* End Of Game.sks in Resources */ = {isa = PBXBuildFile; fileRef = FD81E22720199486009EF14D /* End Of Game.sks */; };
+		FD81E22A201994C8009EF14D /* EndOfGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81E229201994C8009EF14D /* EndOfGame.swift */; };
+		FDE7E19F20197DCA00554FEB /* BossLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7E19E20197DCA00554FEB /* BossLevel.swift */; };
+		FDE7E1A120197E2F00554FEB /* BossLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDE7E1A020197E2F00554FEB /* BossLevel.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		83170F451FE9621500D5033D /* DonaghysDungeon6.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonaghysDungeon6.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83170F491FE9621500D5033D /* DonaghysDungeon6_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonaghysDungeon6_0UITests.swift; sourceTree = "<group>"; };
 		83170F4B1FE9621500D5033D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD81E22720199486009EF14D /* End Of Game.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "End Of Game.sks"; sourceTree = "<group>"; };
+		FD81E229201994C8009EF14D /* EndOfGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndOfGame.swift; sourceTree = "<group>"; };
+		FDE7E19E20197DCA00554FEB /* BossLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossLevel.swift; sourceTree = "<group>"; };
+		FDE7E1A020197E2F00554FEB /* BossLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BossLevel.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +128,14 @@
 				83170F251FE9621500D5033D /* GameScene.sks */,
 				1AE400A31FED581F005B43F2 /* GameStartScene.sks */,
 				1A7AA4B6201788DF00DF1D0D /* Level2.sks */,
+				FDE7E1A020197E2F00554FEB /* BossLevel.sks */,
+				FD81E22720199486009EF14D /* End Of Game.sks */,
 				1A7AA4B22017828900DF1D0D /* GameOverScene.sks */,
 				83170F291FE9621500D5033D /* GameScene.swift */,
 				1AE400A11FED57EB005B43F2 /* GameStartScene.swift */,
 				1A7AA4B4201788B200DF1D0D /* Level2.swift */,
+				FDE7E19E20197DCA00554FEB /* BossLevel.swift */,
+				FD81E229201994C8009EF14D /* EndOfGame.swift */,
 				1A7AA4AC2017814800DF1D0D /* GameOverScene.swift */,
 				83170F2B1FE9621500D5033D /* GameViewController.swift */,
 				83170F2D1FE9621500D5033D /* Main.storyboard */,
@@ -259,9 +271,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE7E1A120197E2F00554FEB /* BossLevel.sks in Resources */,
 				83170F2F1FE9621500D5033D /* Main.storyboard in Resources */,
 				1AE400A41FED581F005B43F2 /* GameStartScene.sks in Resources */,
 				83170F261FE9621500D5033D /* GameScene.sks in Resources */,
+				FD81E22820199486009EF14D /* End Of Game.sks in Resources */,
 				1A7AA4B7201788DF00DF1D0D /* Level2.sks in Resources */,
 				1A7AA4B32017828900DF1D0D /* GameOverScene.sks in Resources */,
 				83170F311FE9621500D5033D /* Assets.xcassets in Resources */,
@@ -291,7 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD81E22A201994C8009EF14D /* EndOfGame.swift in Sources */,
 				83170F2A1FE9621500D5033D /* GameScene.swift in Sources */,
+				FDE7E19F20197DCA00554FEB /* BossLevel.swift in Sources */,
 				1AE400A21FED57EB005B43F2 /* GameStartScene.swift in Sources */,
 				83170F2C1FE9621500D5033D /* GameViewController.swift in Sources */,
 				1A7AA4B5201788B200DF1D0D /* Level2.swift in Sources */,
